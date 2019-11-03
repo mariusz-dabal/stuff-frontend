@@ -22,7 +22,7 @@ const Register = (props) => {
         e.preventDefault();
         axios({
             method: 'post',
-            url: 'http://stuff.test/api/register',
+            url: 'http://jimmyspage.pl/api/register',
             data: {
               name: name,
               email: email,

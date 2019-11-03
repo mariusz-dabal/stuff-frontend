@@ -7,7 +7,7 @@ const Logout = (props) => {
         const token = localStorage.getItem('access_token');
         axios({
             method: 'post',
-            url: 'http://stuff.test/api/logout',
+            url: 'http://jimmyspage.pl/api/logout',
             headers: {
                 'Accept': 'application/json',
                 'Authorization' : 'Bearer ' + token,
